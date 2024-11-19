@@ -1,0 +1,16 @@
+// @use '../partials/functions';
+// @use '../partials/mixins';
+
+// @mixin -font-responsive($weight, $size-mobile, $lineheight-mobile, $size-tablet, $lineheight-tablet) {
+// 	font-weight: $weight;
+// 	font-size: pxToRem($size-mobile);
+// 	line-height: $lineheight-mobile;
+// 	@include tablet {
+// 		font-size: pxToRem($size-tablet);
+// 		line-height: $lineheight-tablet;
+// 	}
+// }
+
+// %f-page-header {
+// 	@include -font-responsive(600, 28px, 36px, 32px, 40px);
+// }

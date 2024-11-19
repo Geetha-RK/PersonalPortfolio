@@ -1,0 +1,26 @@
+@use "./variables" as *;
+
+* {
+    box-sizing: border-box;
+}
+
+html{
+    color: #333;   
+}
+
+body {
+    font-family: "Space Grotesk", Arial, Helvetica,sans-serif;
+    padding: 0;
+    overflow-y: auto;
+    margin: 0;
+
+    // font-family: "Space Grotesk", sans-serif;
+    // font-optical-sizing: auto;
+    // font-weight: <weight>;
+    // font-style: normal;
+
+}
+
+a {
+    text-decoration: none;
+}
